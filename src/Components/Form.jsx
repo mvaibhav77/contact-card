@@ -6,6 +6,9 @@ import emailjs from '@emailjs/browser';
 function Form() {
   const form = useRef();
 
+    console.log(process.env.REACT_APP_EMAIL_PUBLIC_KEY);
+    console.log()
+
   const sendEmail = (e) => {
     e.preventDefault();
 
